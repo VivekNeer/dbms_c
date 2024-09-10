@@ -1,0 +1,47 @@
+C:.
+│   CMakeLists.txt
+│   
+├───.vscode
+│       tasks.json
+│       
+├───build
+│   └───CMakeFiles
+│       │   cmake.check_cache
+│       │   CMakeConfigureLog.yaml
+│       │   
+│       ├───3.30.3
+│       │       CMakeSystem.cmake
+│       │       
+│       └───pkgRedirects
+├───docs
+│       directory.txt
+│
+├───include
+│       dbms.h
+│       index.h
+│       query_executor.h
+│       storage.h
+│
+├───lib
+├───src
+│       index.c
+│       index.exe
+│       main.c
+│       query_executor.c
+│       storage.c
+│
+└───tests
+
+
+CMakeLists.txt: Configures your build system using CMake.
+tasks.json: Contains automated tasks for building/running the project in VS Code.
+docs/directory.txt: Documentation file explaining the project or directory structure.
+include/dbms.h: Main header file with common declarations for the DBMS.
+include/index.h: Declarations related to index management.
+include/query_executor.h: Declarations for query execution.
+include/storage.h: Declarations for storage management.
+src/main.c: Entry point of the DBMS, runs the core logic.
+src/index.c: Implements index management.
+src/query_executor.c: Implements query parsing and execution.
+src/storage.c: Implements data storage and file management.
+tests/: Directory for unit tests to ensure each part of the system works as intended.

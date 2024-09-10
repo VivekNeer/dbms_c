@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "dbms.h": "c",
+        "query_executor.h": "c"
+    }
+}
